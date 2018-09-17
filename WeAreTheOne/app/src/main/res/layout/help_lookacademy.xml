@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".HelpAll.Help_look_Academy"
+android:orientation="vertical">
+
+<!--<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/card1">
+            <LinearLayout
+                android:background="@color/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="월드인서울어학원"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="60dp"
+                    android:paddingStart="60dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="주소: 서울특별시 강남구 817-21 일우빌딩 4층 역삼동"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="영업시간: 영업 중 ⋅ 오후 10:00에 영업 종료"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="연락처: 02-562-6969"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/card1"
+                        android:text="정보 알아보기 "
+                        android:id="@+id/bt1" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/card2">
+            <LinearLayout
+                android:background="@color/card3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="베스트프렌드한국어학원"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="주소: 서울특별시 서대문구 신촌동"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="영업시간: 영업 중 ⋅ 오후 9:00에 영업 종료"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="연락처: 02-365-9875"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="알아보기"
+                        android:background="@color/card3"
+                        android:id="@+id/bt2"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:background="@color/card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="그린한국어학원"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="70dp"
+                    android:paddingStart="70dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="주소: 서울특별시 종로구 청계천로 61"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="영업시간: 영업 중 ⋅ 오후 9:00에 영업 종료"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="연락처: 02-732-1128"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/card2"
+                        android:text="알아보기"
+                        android:id="@+id/bt3"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:background="@color/card4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="월드인서울어학원"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="60dp"
+                    android:paddingStart="60dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="주소: 서울특별시 강남구 817-21 일우빌딩 4층 역삼동"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="영업시간: 영업 중 ⋅ 오후 10:00에 영업 종료"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="연락처: 02-562-6969"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="알아보기"
+                        android:background="@color/card4"
+                        android:id="@+id/bt4"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:background="@color/card5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="월드인서울어학원"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="60dp"
+                    android:paddingStart="60dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="주소: 서울특별시 강남구 817-21 일우빌딩 4층 역삼동"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="영업시간: 영업 중 ⋅ 오후 10:00에 영업 종료"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="연락처: 02-562-6969"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:background="@color/card5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="월드인서울어학원"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="60dp"
+                    android:paddingStart="60dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="주소: 서울특별시 강남구 817-21 일우빌딩 4층 역삼동"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="영업시간: 영업 중 ⋅ 오후 10:00에 영업 종료"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="연락처: 02-562-6969"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:background="@color/card5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="월드인서울어학원"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="60dp"
+                    android:paddingStart="60dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="주소: 서울특별시 강남구 817-21 일우빌딩 4층 역삼동"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="영업시간: 영업 중 ⋅ 오후 10:00에 영업 종료"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="연락처: 02-562-6969"
+                    android:textColor="#000000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>-->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/academyInfo">
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

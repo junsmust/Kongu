@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpAll.k_YeonseiKorean"
+    android:orientation="vertical"
+    android:id="@+id/mainView">
+
+    <LinearLayout
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+
+    </LinearLayout>
+
+
+   <!-- <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/academyInfo">
+
+    </android.support.v7.widget.RecyclerView>
+-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fa_btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:src="@drawable/one"
+                app:backgroundTint="@color/mainPink"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fa_btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:src="@drawable/num2"
+                app:backgroundTint="@color/mainPink"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fa_btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:src="@drawable/ss"
+                app:backgroundTint="@color/mainPink"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fa_btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:src="@drawable/four"
+                app:backgroundTint="@color/mainPink"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/show_result">
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">WeAreTheOne</string>
+    <string name="title_activity_category_menu">CategoryMenu</string>
+    <string name="title_activity_academy_1">Map</string>
+    <string name="title_activity_trip__enp">Trip_Enp</string>
+    <string name="title_activity_trip_enp">tripEnp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBIz4MRCygcmwbHI9wY2ShJmo7nOiZnNHA</string>
+    <string name="facebook_app_id">1829720503771179</string>
+    <string name="fb_login_protocol_scheme">fb1829720503771179</string>
+    <string name="navigation_drawer_open">열림</string>
+    <string name="navigation_drawer_close">닫힘</string>
+    <string name="demo">이건 그냥 데이모일 뿐 입니다.</string>
+
+    <string name="english">English</string>
+    <string name="korean">Korean</string>
+    <string name="hi">Hello</string>
+    <string name="n0">안녕하세요</string>
+    <string name="n1">Thank You</string>
+    <string name="n2">고맙습니다</string>
+    <string name="n3">Don’t mention it</string>
+    <string name="n4">천만에요</string>
+    <string name="n5">Sorry</string>
+    <string name="n6">미안합니다</string>
+    <string name="n7">That’s OK</string>
+    <string name="n8">괜찮아요</string>
+    <string name="n9">Excuse me<!-- (to get attention)--></string>
+    <string name="n10">저기요</string>
+    <string name="n11">Excuse me<!-- (to apologize)--></string>
+    <string name="n12">실례합니다</string>
+    <string name="n13">Excuse me<!-- (to pass someone)--></string>
+    <string name="n14">잠시만요</string>
+    <string name="n15">Good morning</string>
+    <string name="n16">안녕하세요?</string>
+    <string name="n17">Good evening</string>
+    <string name="n18">안녕하세요?</string>
+    <string name="n19">Sleep well</string>
+    <string name="n20">잘 자요</string>
+    <string name="n21">Sweet dreams</string>
+    <string name="n22">좋은 꿈 꿔요</string>
+    <string name="n23">Goodbye<!--(to person leaving)--></string>
+    <string name="n24">안녕히가세요</string>
+    <string name="n25">Goodbye<!-- (to person staying)--></string>
+    <string name="n26">안녕히계세요</string>
+    <string name="n27">Get home safely</string>
+    <string name="n28">잘가요</string>
+    <string name="n29">Have a nice day</string>
+    <string name="n30">좋은하루보내세요</string>
+    <string name="n31">Have a good trip!</string>
+    <string name="n32">여행잘하세요</string>
+    <string name="n33">Welcome</string>
+    <string name="n34">환영합니다</string>
+    <string name="n35">Yes</string>
+    <string name="n36">네</string>
+    <string name="n37">Maybe</string>
+    <string name="n38">아마도</string>
+    <string name="n39">Just a moment</string>
+    <string name="n40">잠깐만요!</string>
+
+
+    <string name="n41">Where is the bathroom?</string>
+    <string name="n42">화장실은어디에있어요?</string>
+    <string name="n43">Please repeat that</string>
+    <string name="n44">다시 말해 주세요</string>
+    <string name="n45">Please speak slowly</string>
+    <string name="n46">천천히 말해 주세요</string>
+    <string name="n47">HPlease write it down</string>
+    <string name="n48">적어 주세요</string>
+    <string name="n49">I understand</string>
+    <string name="n50">이해해요</string>
+    <string name="n51">I don’t understand</string>
+    <string name="n52">H이해 못해요</string>
+    <string name="n53">I don’t know</string>
+    <string name="n54">몰라요</string>
+    <string name="n55">I know</string>
+    <string name="n56">알아요</string>
+    <string name="n57">Can you speak Korean?</string>
+    <string name="n58">한국말을 할 수 있어요?</string>
+    <string name="n59">I can speak a little Korean</string>
+    <string name="n60">한국말을 조금 할 수 있어요</string>
+
+
+    <string name="food_1">Would you bring a menu, please?</string>
+    <string name="food_2">여기 메뉴판 좀 주세요</string>
+    <string name="food_3">what is the best dish here?</string>
+    <string name="food_4">뭐가 제일 맛있어요? </string>
+    <string name="food_5">Please recommend something for me</string>
+    <string name="food_6">추천 좀 해주세요</string>
+    <string name="food_7">What is the most famouse dish?</string>
+    <string name="food_8">뭐가 제일 인기있어요?</string>
+    <string name="food_9">what is the fastest dish to cook for?</string>
+    <string name="food_10">제일 빨리 되는 게 뭐예요?</string>
+    <string name="food_11">Is there a vegetarian menu?</string>
+    <string name="food_12">채식 메뉴 있나요? </string>
+    <string name="food_13">Please cook welldone</string>
+    <string name="food_14">바짝 익혀주세요</string>
+    <string name="food_15">I am allergic to peanut, please do not put peanut in my dish</string>
+    <string name="food_16">땅콩 알러지가 있는데, 땅콩 좀 빼주세요</string>
+    <string name="food_17">). Please give me a wet hand towel</string>
+    <string name="food_18">물수건 좀 주세요</string>
+
+
+</resources>

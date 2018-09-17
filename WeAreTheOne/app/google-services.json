@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1067934783995",
+    "firebase_url": "https://wearetheone-876c5.firebaseio.com",
+    "project_id": "wearetheone-876c5",
+    "storage_bucket": "wearetheone-876c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067934783995:android:921c17fcebabed64",
+        "android_client_info": {
+          "package_name": "com.example.isp30.wearetheone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067934783995-renk1abvat86r7nt5ktq6cc7fe7hjrl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.isp30.wearetheone",
+            "certificate_hash": "fb9f45cfa8597012efa4877f9394602374c07c7a"
+          }
+        },
+        {
+          "client_id": "1067934783995-1e8kob2s8qf2st20uhbbi6ucv1u7qurq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMAomDp6p4qjjjRpw3IX1Gl71obYQcm3E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067934783995-1e8kob2s8qf2st20uhbbi6ucv1u7qurq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

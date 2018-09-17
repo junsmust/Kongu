@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_weight="10">
+
+   <RelativeLayout
+       android:layout_marginTop="40dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="5">
+      <ImageView
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ic_transfer_within_a_station_black_24dp"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="50dp"
+          android:id="@+id/mainImg"/>
+      <TextView
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="we are exchange student"
+          android:textColor="@color/mainColor"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/mainImg"
+          android:layout_centerHorizontal="true"
+          android:id="@+id/main_title"/>
+     <ImageView
+         android:layout_below="@id/main_title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/image_main"/>
+
+   </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <com.google.android.gms.common.SignInButton
+               android:id="@+id/sign_button"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_centerHorizontal="true"
+               android:layout_gravity="center">
+
+           </com.google.android.gms.common.SignInButton>
+           <ImageView
+               android:id="@+id/google_login"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/_google_1"
+               android:layout_gravity="center"/>
+
+       </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:id="@+id/fb_fake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/_fb3" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/tutorial_btn"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:text="Tutorial"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/tutorial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/_tutorial" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

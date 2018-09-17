@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainColor">#76BCF3</color>
+    <color name="mainPink">#F7B8A6</color>
+    <color name="buttonPressed">#CC8074</color>
+    <color name="card1">#E6AFC0</color>
+    <color name="card2">#C2C6DD</color>
+    <color name="card3">#B3DDB1</color>
+    <color name="card4">#D4DCDD</color>
+    <color name="card5">#D7E3AA</color>
+    <color name="restaurantBackcolor">#EDE7D0</color>
+</resources>

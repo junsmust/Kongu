@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/seoul" />
+
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:columnCount="3"
+                android:rowCount="10">
+
+
+                <Button
+                    android:id="@+id/ep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="은평"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/jr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="종로"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/dhr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="대학로"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/scd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="삼청동"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gbsb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="강변성북"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/nw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="노원 도봉"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/sc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="신촌"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="마포"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ghm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="광화문"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/jg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="중구"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ddm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="동대문"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/jrgj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="중량광진"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/isd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="인사동"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/hy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="홍대-연남"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="명동"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="성동"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="건대"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/sh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="성수-합정"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ys"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="용산"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/itw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="이태원"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/gs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="강성-양천"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ydp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="영등포"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/dj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="동작"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/scho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="서초"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/garosu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="가로수길"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/kangnam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="강남역"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/songpa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="송파"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/kangdong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="강동"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/seouluni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="관악"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/guro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="구로-금천"
+                    android:textStyle="bold" />
+
+
+            </GridLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
